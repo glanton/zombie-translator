@@ -1,5 +1,5 @@
 # Zombie Translator
-Zombie translator is a bulwark against the apocalypse to come; a two-way translator ready to facilitate that alternate reality where human and zombie co-exist in peaceful discourse. That humans may speak again with loved ones lost; that zombies may barter for brains.
+Zombie translator is a bulwark against the apocalypse to come; a two-way communication device ready to facilitate that alternate reality where human and zombie co-exist in peaceful discourse. That humans may speak again with loved ones lost; that zombies may barter for brains.
 
 ### Summary of Features and Technology
 Zombie Translator features both English-to-Zombie and Zombie-to-English translation. It uses a responsive Bootstrap layout, RequireJS for modules dependencies, Jasmine for testing, and Karma for running tests from the command line. Karma is currently configured to use PhantomJS. The JavaScript itself makes use of jQuery for interface needs and performs translation mostly by matching characters (with very limited use of regular expressions).
