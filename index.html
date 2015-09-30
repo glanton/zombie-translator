@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Assignment 1: Zombie Translator</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script data-main="js/app" src="js/vendors/require.min.js"></script>
+</head>
+<body>
+    <div class="container">
+      <div class="page-header">
+        <h1>Zombie Translator<br>
+          <small>zRmrrrRrmbrrRrrr TRRhranslhratrrrRrrh</small></h1>
+      </div>
+
+      <nav>
+        <ul class="nav nav-pills">
+          <li role="presentation" class="active"><a data-toggle="pill" href="#engToZomDiv">English to Zombie</a></li>
+          <li role="presentation"><a data-toggle="pill" href="#zomToEngDiv">Zombie to English</a></li>
+        </ul>
+      </nav>
+
+      <div class="row">
+        <div class="tab-content">
+            <div id="engToZomDiv" class="tab-pane in active">
+              <div class="form-group col-sm-6">
+                <textarea id="engToZomInput" class="form-control" rows="5" autofocus="autofocus" placeholder="Enter English text here..."></textarea>
+              </div>
+              <div id="engToZomOutput" class="col-sm-6">...and Zombie translation will appear here.</div>
+          </div>
+
+          <div id="zomToEngDiv" class="tab-pane">
+            <div class="form-group col-sm-6">
+              <textarea id="zomToEngInput" class="form-control" rows="5" autofocus="autofocus" placeholder="rrntrrrh zRmrrrRrmbrrRrrr trrxt hrrRRrr..."></textarea>
+            </div>
+            <div id="zomToEngOutput" class="col-sm-6">...hrand rrngRGhglrrRrsh tRRhranslhratrrRrrrrRrn wrrRrll hrapprrhrarh hrrRRrr.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">No zombies were harmed in the development of this translator.</p>
+      </div>
+    </footer>
+</body>
+</html>
